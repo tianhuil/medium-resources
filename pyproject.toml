@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "medium-resources"
+version = "0.1.0"
+description = ""
+authors = ["Tianhui Michael Li <tianhuil@cs.princeton.edu>"]
+readme = "README.md"
+packages = [{include = "medium_resources"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+jupyter = "^1.0.0"
+pandas = "^2.0.3"
+torch = "^2.0.1"
+numpy = "^1.25.0"
+transformers = "^4.30.2"
+tqdm = "^4.65.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
